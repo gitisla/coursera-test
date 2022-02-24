@@ -1,18 +1,43 @@
-li {
-    text-align: center;
-  }
-  
-  h1,
-  h3 {
-    text-align: center;
-    margin: 10px;
-  }
-  
-  div.container {
-    background-color: bisque;
-    padding: 20px;
-  }
-  
-  body {
-    overflow: auto;
-  }
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  overflow: auto;
+}
+
+nav {
+  border: 3px solid black;
+}
+
+.section {
+  background-color: beige;
+  border: 3px solid black;
+}
+
+h2 {
+  text-align: center;
+  float: right;
+  border-left: 3px solid black;
+  border-bottom: 3px solid black;
+  width: 150px;
+}
+
+.chicken {
+  background-color: blanchedalmond;
+}
+.beef {
+  background-color: cadetblue;
+}
+.sushi {
+  background-color: cornflowerblue;
+}
+
+p {
+  text-align: justify;
+  font-weight: bold;
+  padding: 10px;
+  padding-top: 50px;
+}
